@@ -74,10 +74,10 @@
 .bne{
     height: 300px;
     width: 100%;
-    background-image: url(banner.png);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    margin-top: 10px;
+    background-color: white;
+    color: rgb(73, 127, 106);;
+    font-size: 144px;
+    margin-top: -110px;
     box-shadow: 1px 1px 5px 5px rgb(213, 212, 212) ;
 }
 /*plot1*/
