@@ -1,0 +1,76 @@
+#fname,#lname{
+    width: 100px;
+    height: 20px;
+}
+#lname,#date{
+    margin-left: 15px;
+}
+#date{
+    height: 20px;
+    width: 103px;
+}
+#ge{
+    height: 23px;
+    width: 107px;
+}
+#en{
+    height: 20px;
+    width: 230px;
+}
+.box{
+    scale: 1.5;
+    margin-top: 130px;
+    margin-left: 100px;
+    margin-right: 180px;
+}
+.box1{
+    margin-top: 100px;
+    font-size: larger;
+}
+#btt{
+    height: 40px;
+    width: 100px;
+    text-align: center;
+    font-size: larger;
+    border-radius: 50px;
+    margin-top: 30px;
+    margin-left: 40px;
+    border: none;
+}
+#btt:hover{
+    background-color: black;
+    color: aliceblue;
+}
+form{
+    display: flex;
+    height: 420px;
+    width: 780px;
+    background-color: rgba(83, 82, 82, 0.259);
+    margin-top: 100px;
+    margin-left: 350px;
+    border-top-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+    padding: 20px;
+}
+body{
+    background-image: url(index.png);
+    background-repeat: no-repeat;
+    background-size: 220vh 100vh;
+}
+.li a{
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    margin-left: 30px;
+}
+.li a:hover{
+    color: black;
+}
+.li{
+    float: right;
+    margin-right: 20px;
+    margin-left: 1400px;
+}
+.head{
+    display: flex;
+}

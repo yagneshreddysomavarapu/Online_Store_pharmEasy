@@ -1,0 +1,178 @@
+.con {
+    display: flex;
+    margin-left: 41%;
+    text-align: center;
+}
+.con img{
+       width: 30px;
+       height: 25px;
+    }
+    .con p{
+        font-size: larger;
+        margin-top:2px;
+       margin-left: 10px;
+    }
+    #contact h1{
+        text-align: center;
+    }
+    .con {
+        display: flex;
+        margin-left: 41%;
+        text-align: center;
+    }
+    .con img{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+    }
+    .con p{
+        font-size: larger;
+        margin-top:5px;
+        margin-left: 10px;
+    }
+    #contact{
+    color: rgb(255, 255, 255);
+    background-color: rgb(73, 127, 106);
+    margin-top: 20px;
+    padding: 5px;
+    margin-left: -10px;
+    margin-right: -8px;
+    }
+
+.head{
+    position:fixed;
+    display: flex;
+    background-color: rgb(73, 127, 106);
+    width: 101.2%;
+    height: 80px;
+    margin-top: -20px;
+    margin-left: -10px;
+    box-shadow: 0px 0px 5px 5px rgb(213, 212, 212) ;
+    z-index: 10;
+}
+.head h1{
+    color: aliceblue;
+    padding-left: 30px;
+    font-size: 30pxpx;
+    margin-top: 30px;
+}
+.list{
+    display: flex;
+    margin-left: 950px;
+}
+.li{
+    text-decoration: none;
+    margin: 35px;
+    font-size: larger;
+    color: rgb(255, 255, 255);
+    scale: 1.2;
+
+}
+.li:hover{
+    scale: 1.5;
+}
+.bne{
+    height: 300px;
+    width: 100%;
+    background-image: url(banner.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: 10px;
+    box-shadow: 1px 1px 5px 5px rgb(213, 212, 212) ;
+}
+/*plot1*/
+.shop_list1{
+    height: 340px;
+    width: 96%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    column-gap: 30px;
+    padding: 30px;
+}
+.shop_list1 .pl1{
+    width: 230px;
+    height: 330px;
+    background-color:rgb(255, 255, 255);
+}
+.shop_list1 .pl1:hover{
+    box-shadow: 1px 1px 5px 5px rgb(213, 212, 212) ;
+    scale: 1.05;
+}
+.pl1 img{
+    width: 90%;
+    height: 55%;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+#pl24{
+    width: 90px;
+    padding-left: 34px;
+}
+#pl13{
+    width: 70%;
+    padding-left: 17px;
+}
+#pl26{
+    width: 130px;
+    padding-left: 15px;
+}
+#pl27{
+    width: 200px;
+}
+#pl1{
+    height: 95px;
+    text-align: center;
+}
+#pl1 button{
+    scale: 1.2;
+    background-color: rgb(255, 64, 0);
+    color: white;
+    border: none;
+    padding-top: 3px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#pl1 button:hover{
+    scale: 1.5;
+}
+.pl1 #prc{
+    display: flex;
+    margin-left: 33px;
+}
+.pl1 p{
+    margin-left: 20px;
+}
+.pl1 h2{
+    margin-top: 10px;
+}
+.pl1 b{
+    margin-top: none;
+}
+/* box */
+.box{
+    box-shadow: 0px 1px 5px 5px rgb(213, 212, 212) ;
+    height: 800px;
+    width: 100%;
+}
+/*plot 2*/
+.shop_list2{
+    height: 250px;
+    width: 93.3%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    column-gap: 30px;
+    padding: 50px;
+    box-shadow: 1px 1px 5px 5px rgb(213, 212, 212) ;
+}
+.shop_list2 img{
+    width: 90%;
+    height: 90%;
+    margin: 10px;
+    border-radius: 15px;
+}
+.shop_list2 img:hover{
+    box-shadow: 1px 1px 5px 5px rgb(213, 212, 212) ;
+    scale: 1.1;
+}

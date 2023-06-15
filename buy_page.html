@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy page</title>
+    <style>
+        body{
+            background-color: rgb(218, 218, 218);
+        }
+        .box{
+            width: 500px;
+            height: 200px;
+            background-color: white;
+            text-align: center;
+            padding: 50px;
+            border-radius: 25px;
+            margin-top: 200px;
+            margin-left: 450px;
+            scale: 1.3;
+        }
+        button{
+            scale:1.3;
+            border-radius: 5px;
+            margin-left: 10px;
+        }
+        button:hover{
+            scale:1.5;
+            background-color: rgb(250, 59, 59);
+        }
+        #b1:hover{
+            scale: 1.6;
+            background-color: rgb(77, 219, 77);
+        }
+        #img1{
+            width:40px;
+            height: 40px;
+        }
+        #img2{
+            width:30px;
+            height: 30px;
+            margin-top: 10px;
+        }
+        .b1{
+            margin-left: 100px;
+        }
+        .btt{
+            display: flex;
+            column-gap: 150px;
+            margin-top: -10px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>Are you sure to buy this product !</h1>
+        <p>To conform your order to click conform or cancle to click cancle</p><br>
+        <div class="btt">
+            <div class="b1">
+            <img src="tick.avif" alt="" id="img1"><br>
+            <a href="order_cmf.html"><button id="b1">Conform</button></a>
+            </div>
+            <div class="b2">
+            <img src="cancle.webp" alt="" id="img2"><br>
+            <a href="cancle.html"><button>Cancle</button></a>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
