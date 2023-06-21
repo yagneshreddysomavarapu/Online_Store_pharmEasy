@@ -22,12 +22,28 @@
     </div>
     <form action="main.html" class="log">
     <div class="data">
-    <input type="text" placeholder="Enter Username" id="bx" required><br><br>
-    <input type="password" placeholder="Enter Password" id="bx" required;l><br><br>
+    <input type="email" placeholder="Enter email" id="bx" required><br><br>
+    <input type="password" placeholder="Enter Password" id="psw" pattern="(?=.*[#,@,$])(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9]).{8,}" placeholder="Enter your password" title="Invalid Input password must contains atleast 8 or more charecters like wise combination of numbers and one or more (uppercase and lowercase letter and   symbols(#,@,$))."  required><br><br>
+     <section class="ch">
+                <input type="checkbox" name="fp" id="fp" class="c_box">
+                <label for="fp">View Password</label>
+            </section>
 </div>
 <input type="submit" value="login" id="btt">
    </form>
     </div>
     </div>
 </body>
-</html>
+<script>
+    document.getElementById("fp").onclick=function()
+{
+    var psw=document.getElementById("psw");
+    if(psw.type=="password")
+    {
+        psw.type="text";
+    }
+    else{
+        psw.type="password";
+    }
+}
+</script>
